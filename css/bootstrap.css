@@ -2337,6 +2337,7 @@ html {
     }
     .col-sm-3 {
       width: 25%;
+    
     }
     .col-sm-2 {
       width: 16.66666667%;
@@ -8361,6 +8362,14 @@ html {
   @media print {
     .hidden-print {
       display: none !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .row-no-gutters {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
     }
   }
   
