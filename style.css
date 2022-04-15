@@ -765,6 +765,15 @@ h4 {
     background-color: #FFFFFF;
 }
 
+.col-sm-12 p {
+    font-size: 20px;
+}
+
+.col-xs-12 p {
+    font-size: 20px;
+}
+
+
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
